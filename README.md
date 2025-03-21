@@ -22,4 +22,18 @@ To run the website in production mode:
 npm start
 ```
 
+The website will be available at http://localhost:3000
+
+## Running with Docker
+
+To build the Docker image:
+```bash
+docker build -t demo-simple-web .
+```
+
+To run the container:
+```bash
+docker run -p 3000:3000 demo-simple-web
+```
+
 The website will be available at http://localhost:3000 
